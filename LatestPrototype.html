@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Festival Calendar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="ulkof.css" type="text/css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -106,15 +107,17 @@
     </div>
     <div class="col-sm-4"> 
       <h2 align="left">Reviews</h2>
-      <img src="Divide.png" class="img-responsive" style="width:68%" alt="Image">
-      
-      <p>Reviews</p>    
+      <img src="Divide.png" class="img-responsive" style="height="68%" width="68%" alt="Image">
+
+      <br>   
+      <p align="left"><a class="btn btn-default" href="#" role="button" style="background-color:black; color: white" >View Reviews &raquo;</a></p>
     </div>
  
     <div class="col-sm-4">
      <h2 align="left">Mark Your Dates.</h2>
-    
-    <div id="calendar">
+      <div class="myCalendar" id="calendar"></div>
+      <script src="moment.min.js"></script>
+      <script type="text/javascript" src="ulkof.js"></script>
     </div>
 
       </div>
