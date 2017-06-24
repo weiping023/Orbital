@@ -331,7 +331,7 @@
     { eventName: 'Game vs Denver', calendar: 'Sports', color: 'blue' },
     { eventName: 'Game vs San Degio', calendar: 'Sports', color: 'blue' },
 
-    { eventName: 'School Play', calendar: 'Kids', color: 'yellow' },
+    { eventName: 'G-Dragon. Art III: Motte', calendar: 'concert', color: 'yellow' },
     { eventName: 'Parent/Teacher Conference', calendar: 'Kids', color: 'yellow' },
     { eventName: 'Pick up from Soccer Practice', calendar: 'Kids', color: 'yellow' },
     { eventName: 'Ice Cream Night', calendar: 'Kids', color: 'yellow' },

@@ -2,7 +2,7 @@
 -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-body {
+.myCalendar {
  overflow: hidden;
  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
  font-weight: 100;
@@ -28,7 +28,7 @@ body {
   overflow: hidden;
 }
 
-.header {
+.calendar-header {
   height: 50px;
   width: 420px;
   background: rgba(66, 66, 66, 1);
@@ -37,7 +37,7 @@ body {
   z-index: 100;
 }
 
-.header h1 {
+.calendar-header h1 {
   margin: 0;
   padding: 0;
   font-size: 20px;
@@ -46,7 +46,7 @@ body {
   letter-spacing: 1px;
 }
 
-.left, .right {
+.calendar-left, .calendar-right {
   position: absolute;
   width: 0px;
   height: 0px;
@@ -56,13 +56,13 @@ body {
   cursor: pointer;
 }
 
-.left {
+.calendar-left {
   border-width: 7.5px 10px 7.5px 0;
   border-color: transparent rgba(160, 159, 160, 1) transparent transparent;
   left: 20px;
 }
 
-.right {
+.calendar-right {
   border-width: 7.5px 0 7.5px 10px;
   border-color: transparent transparent transparent rgba(160, 159, 160, 1);
   right: 20px;
