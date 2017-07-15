@@ -1,0 +1,1983 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bcryptjs
+20 silly mapToRegistry name bcryptjs
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'bcryptjs',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'bcryptjs',
+23 silly mapToRegistry   name: 'bcryptjs',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/bcryptjs
+25 silly fetchNamedPackageData body-parser
+26 silly mapToRegistry name body-parser
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'body-parser',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'body-parser',
+29 silly mapToRegistry   name: 'body-parser',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+31 silly fetchNamedPackageData connect-flash
+32 silly mapToRegistry name connect-flash
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'connect-flash',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'connect-flash',
+35 silly mapToRegistry   name: 'connect-flash',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/connect-flash
+37 silly fetchNamedPackageData cookie-parser
+38 silly mapToRegistry name cookie-parser
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'cookie-parser',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'cookie-parser',
+41 silly mapToRegistry   name: 'cookie-parser',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+43 silly fetchNamedPackageData express
+44 silly mapToRegistry name express
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'express',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'express',
+47 silly mapToRegistry   name: 'express',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/express
+49 silly fetchNamedPackageData express-handlebars
+50 silly mapToRegistry name express-handlebars
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'express-handlebars',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'express-handlebars',
+53 silly mapToRegistry   name: 'express-handlebars',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/express-handlebars
+55 silly fetchNamedPackageData express-messages
+56 silly mapToRegistry name express-messages
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'express-messages',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'express-messages',
+59 silly mapToRegistry   name: 'express-messages',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/express-messages
+61 silly fetchNamedPackageData express-session
+62 silly mapToRegistry name express-session
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'express-session',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'express-session',
+65 silly mapToRegistry   name: 'express-session',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/express-session
+67 silly fetchNamedPackageData express-validator
+68 silly mapToRegistry name express-validator
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'express-validator',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'express-validator',
+71 silly mapToRegistry   name: 'express-validator',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/express-validator
+73 silly fetchNamedPackageData mongodb
+74 silly mapToRegistry name mongodb
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'mongodb',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'mongodb',
+77 silly mapToRegistry   name: 'mongodb',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+79 silly fetchNamedPackageData mongoose
+80 silly mapToRegistry name mongoose
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'mongoose',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'mongoose',
+83 silly mapToRegistry   name: 'mongoose',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+85 silly fetchNamedPackageData passport
+86 silly mapToRegistry name passport
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'passport',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'passport',
+89 silly mapToRegistry   name: 'passport',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/passport
+91 silly fetchNamedPackageData passport-http
+92 silly mapToRegistry name passport-http
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'passport-http',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'passport-http',
+95 silly mapToRegistry   name: 'passport-http',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/passport-http
+97 silly fetchNamedPackageData passport-local
+98 silly mapToRegistry name passport-local
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'passport-local',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   escapedName: 'passport-local',
+101 silly mapToRegistry   name: 'passport-local',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/passport-local
+103 silly fetchNamedPackageData passport-facebook
+104 silly mapToRegistry name passport-facebook
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'passport-facebook',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'passport-facebook',
+107 silly mapToRegistry   name: 'passport-facebook',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/passport-facebook
+109 silly fetchNamedPackageData passport-gooogle-oath
+110 silly mapToRegistry name passport-gooogle-oath
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'passport-gooogle-oath',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   escapedName: 'passport-gooogle-oath',
+113 silly mapToRegistry   name: 'passport-gooogle-oath',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/passport-gooogle-oath
+115 verbose request uri https://registry.npmjs.org/passport-facebook
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 4:28:02 PM
+118 verbose request id 8d66f0f474db7468
+119 http request GET https://registry.npmjs.org/passport-facebook
+120 verbose request uri https://registry.npmjs.org/passport-gooogle-oath
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 4:28:02 PM
+123 http request GET https://registry.npmjs.org/passport-gooogle-oath
+124 verbose request uri https://registry.npmjs.org/body-parser
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 4:28:02 PM
+127 verbose etag W/"59677316-20fc7"
+128 verbose lastModified Thu, 13 Jul 2017 13:18:14 GMT
+129 http request GET https://registry.npmjs.org/body-parser
+130 verbose request uri https://registry.npmjs.org/bcryptjs
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 4:28:02 PM
+133 verbose etag W/"5968d75b-f18c"
+134 verbose lastModified Fri, 14 Jul 2017 14:38:19 GMT
+135 http request GET https://registry.npmjs.org/bcryptjs
+136 verbose request uri https://registry.npmjs.org/cookie-parser
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 4:28:02 PM
+139 verbose etag W/"59532f92-6a87"
+140 verbose lastModified Wed, 28 Jun 2017 04:24:50 GMT
+141 http request GET https://registry.npmjs.org/cookie-parser
+142 verbose request uri https://registry.npmjs.org/connect-flash
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 4:28:02 PM
+145 verbose etag W/"595df5ed-1922"
+146 verbose lastModified Thu, 06 Jul 2017 08:33:49 GMT
+147 http request GET https://registry.npmjs.org/connect-flash
+148 verbose request uri https://registry.npmjs.org/express-handlebars
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 4:28:02 PM
+151 verbose etag W/"59680cda-b1c7"
+152 verbose lastModified Fri, 14 Jul 2017 00:14:18 GMT
+153 http request GET https://registry.npmjs.org/express-handlebars
+154 verbose request uri https://registry.npmjs.org/express-messages
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 4:28:02 PM
+157 verbose etag W/"58ef153a-2218"
+158 verbose lastModified Thu, 13 Apr 2017 06:05:46 GMT
+159 http request GET https://registry.npmjs.org/express-messages
+160 verbose request uri https://registry.npmjs.org/express-session
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 4:28:02 PM
+163 verbose etag W/"59675a5b-1f7fc"
+164 verbose lastModified Thu, 13 Jul 2017 11:32:43 GMT
+165 http request GET https://registry.npmjs.org/express-session
+166 verbose request uri https://registry.npmjs.org/express-validator
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 4:28:02 PM
+169 verbose etag W/"59677298-1f58f"
+170 verbose lastModified Thu, 13 Jul 2017 13:16:08 GMT
+171 http request GET https://registry.npmjs.org/express-validator
+172 verbose request uri https://registry.npmjs.org/express
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 4:28:02 PM
+175 verbose etag W/"59688e79-8d1b5"
+176 verbose lastModified Fri, 14 Jul 2017 09:27:21 GMT
+177 http request GET https://registry.npmjs.org/express
+178 verbose request uri https://registry.npmjs.org/mongoose
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 4:28:02 PM
+181 verbose etag W/"5969593e-9b95c"
+182 verbose lastModified Fri, 14 Jul 2017 23:52:30 GMT
+183 http request GET https://registry.npmjs.org/mongoose
+184 verbose request uri https://registry.npmjs.org/mongodb
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 4:28:02 PM
+187 verbose etag W/"5967d00d-98a1a"
+188 verbose lastModified Thu, 13 Jul 2017 19:54:53 GMT
+189 http request GET https://registry.npmjs.org/mongodb
+190 verbose request uri https://registry.npmjs.org/passport
+191 verbose request no auth needed
+192 info attempt registry request try #1 at 4:28:02 PM
+193 verbose etag W/"59692c7c-aee6"
+194 verbose lastModified Fri, 14 Jul 2017 20:41:32 GMT
+195 http request GET https://registry.npmjs.org/passport
+196 verbose request uri https://registry.npmjs.org/passport-local
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 4:28:02 PM
+199 verbose etag W/"59529b01-3858"
+200 verbose lastModified Tue, 27 Jun 2017 17:50:57 GMT
+201 http request GET https://registry.npmjs.org/passport-local
+202 verbose request uri https://registry.npmjs.org/passport-http
+203 verbose request no auth needed
+204 info attempt registry request try #1 at 4:28:02 PM
+205 verbose etag W/"5901ba69-3c0e"
+206 verbose lastModified Thu, 27 Apr 2017 09:31:21 GMT
+207 http request GET https://registry.npmjs.org/passport-http
+208 http 304 https://registry.npmjs.org/cookie-parser
+209 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+209 verbose headers   via: '1.1 varnish',
+209 verbose headers   'cache-control': 'max-age=300',
+209 verbose headers   etag: 'W/"59532f92-6a87"',
+209 verbose headers   age: '101',
+209 verbose headers   connection: 'keep-alive',
+209 verbose headers   'x-served-by': 'cache-sin18030-SIN',
+209 verbose headers   'x-cache': 'HIT',
+209 verbose headers   'x-cache-hits': '1',
+209 verbose headers   'x-timer': 'S1500107272.567058,VS0,VE1',
+209 verbose headers   vary: 'Accept-Encoding, Accept' }
+210 silly get cb [ 304,
+210 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+210 silly get     via: '1.1 varnish',
+210 silly get     'cache-control': 'max-age=300',
+210 silly get     etag: 'W/"59532f92-6a87"',
+210 silly get     age: '101',
+210 silly get     connection: 'keep-alive',
+210 silly get     'x-served-by': 'cache-sin18030-SIN',
+210 silly get     'x-cache': 'HIT',
+210 silly get     'x-cache-hits': '1',
+210 silly get     'x-timer': 'S1500107272.567058,VS0,VE1',
+210 silly get     vary: 'Accept-Encoding, Accept' } ]
+211 verbose etag https://registry.npmjs.org/cookie-parser from cache
+212 verbose get saving cookie-parser to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\cookie-parser\.cache.json
+213 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+214 http 304 https://registry.npmjs.org/body-parser
+215 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+215 verbose headers   via: '1.1 varnish',
+215 verbose headers   'cache-control': 'max-age=300',
+215 verbose headers   etag: 'W/"59677316-20fc7"',
+215 verbose headers   age: '275',
+215 verbose headers   connection: 'keep-alive',
+215 verbose headers   'x-served-by': 'cache-sin18021-SIN',
+215 verbose headers   'x-cache': 'HIT',
+215 verbose headers   'x-cache-hits': '1',
+215 verbose headers   'x-timer': 'S1500107272.570025,VS0,VE0',
+215 verbose headers   vary: 'Accept-Encoding, Accept' }
+216 silly get cb [ 304,
+216 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+216 silly get     via: '1.1 varnish',
+216 silly get     'cache-control': 'max-age=300',
+216 silly get     etag: 'W/"59677316-20fc7"',
+216 silly get     age: '275',
+216 silly get     connection: 'keep-alive',
+216 silly get     'x-served-by': 'cache-sin18021-SIN',
+216 silly get     'x-cache': 'HIT',
+216 silly get     'x-cache-hits': '1',
+216 silly get     'x-timer': 'S1500107272.570025,VS0,VE0',
+216 silly get     vary: 'Accept-Encoding, Accept' } ]
+217 verbose etag https://registry.npmjs.org/body-parser from cache
+218 verbose get saving body-parser to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+219 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+220 http 304 https://registry.npmjs.org/express
+221 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+221 verbose headers   via: '1.1 varnish',
+221 verbose headers   'cache-control': 'max-age=300',
+221 verbose headers   etag: 'W/"59688e79-8d1b5"',
+221 verbose headers   age: '202',
+221 verbose headers   connection: 'keep-alive',
+221 verbose headers   'x-served-by': 'cache-sin18021-SIN',
+221 verbose headers   'x-cache': 'HIT',
+221 verbose headers   'x-cache-hits': '7',
+221 verbose headers   'x-timer': 'S1500107272.571547,VS0,VE0',
+221 verbose headers   vary: 'Accept-Encoding, Accept' }
+222 silly get cb [ 304,
+222 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+222 silly get     via: '1.1 varnish',
+222 silly get     'cache-control': 'max-age=300',
+222 silly get     etag: 'W/"59688e79-8d1b5"',
+222 silly get     age: '202',
+222 silly get     connection: 'keep-alive',
+222 silly get     'x-served-by': 'cache-sin18021-SIN',
+222 silly get     'x-cache': 'HIT',
+222 silly get     'x-cache-hits': '7',
+222 silly get     'x-timer': 'S1500107272.571547,VS0,VE0',
+222 silly get     vary: 'Accept-Encoding, Accept' } ]
+223 verbose etag https://registry.npmjs.org/express from cache
+224 verbose get saving express to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+225 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+226 http 304 https://registry.npmjs.org/express-session
+227 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+227 verbose headers   via: '1.1 varnish',
+227 verbose headers   'cache-control': 'max-age=300',
+227 verbose headers   etag: 'W/"59675a5b-1f7fc"',
+227 verbose headers   age: '281',
+227 verbose headers   connection: 'keep-alive',
+227 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+227 verbose headers   'x-cache': 'HIT',
+227 verbose headers   'x-cache-hits': '83',
+227 verbose headers   'x-timer': 'S1500107272.574718,VS0,VE0',
+227 verbose headers   vary: 'Accept-Encoding, Accept' }
+228 silly get cb [ 304,
+228 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+228 silly get     via: '1.1 varnish',
+228 silly get     'cache-control': 'max-age=300',
+228 silly get     etag: 'W/"59675a5b-1f7fc"',
+228 silly get     age: '281',
+228 silly get     connection: 'keep-alive',
+228 silly get     'x-served-by': 'cache-sin18023-SIN',
+228 silly get     'x-cache': 'HIT',
+228 silly get     'x-cache-hits': '83',
+228 silly get     'x-timer': 'S1500107272.574718,VS0,VE0',
+228 silly get     vary: 'Accept-Encoding, Accept' } ]
+229 verbose etag https://registry.npmjs.org/express-session from cache
+230 verbose get saving express-session to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\express-session\.cache.json
+231 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+232 http 304 https://registry.npmjs.org/express-messages
+233 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+233 verbose headers   via: '1.1 varnish',
+233 verbose headers   'cache-control': 'max-age=300',
+233 verbose headers   etag: 'W/"58ef153a-2218"',
+233 verbose headers   age: '236',
+233 verbose headers   connection: 'keep-alive',
+233 verbose headers   'x-served-by': 'cache-sin18028-SIN',
+233 verbose headers   'x-cache': 'HIT',
+233 verbose headers   'x-cache-hits': '1',
+233 verbose headers   'x-timer': 'S1500107272.576935,VS0,VE0',
+233 verbose headers   vary: 'Accept-Encoding, Accept' }
+234 silly get cb [ 304,
+234 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+234 silly get     via: '1.1 varnish',
+234 silly get     'cache-control': 'max-age=300',
+234 silly get     etag: 'W/"58ef153a-2218"',
+234 silly get     age: '236',
+234 silly get     connection: 'keep-alive',
+234 silly get     'x-served-by': 'cache-sin18028-SIN',
+234 silly get     'x-cache': 'HIT',
+234 silly get     'x-cache-hits': '1',
+234 silly get     'x-timer': 'S1500107272.576935,VS0,VE0',
+234 silly get     vary: 'Accept-Encoding, Accept' } ]
+235 verbose etag https://registry.npmjs.org/express-messages from cache
+236 verbose get saving express-messages to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\express-messages\.cache.json
+237 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+238 http 304 https://registry.npmjs.org/connect-flash
+239 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+239 verbose headers   via: '1.1 varnish',
+239 verbose headers   'cache-control': 'max-age=300',
+239 verbose headers   etag: 'W/"595df5ed-1922"',
+239 verbose headers   age: '172',
+239 verbose headers   connection: 'keep-alive',
+239 verbose headers   'x-served-by': 'cache-sin18030-SIN',
+239 verbose headers   'x-cache': 'HIT',
+239 verbose headers   'x-cache-hits': '1',
+239 verbose headers   'x-timer': 'S1500107272.580850,VS0,VE0',
+239 verbose headers   vary: 'Accept-Encoding, Accept' }
+240 silly get cb [ 304,
+240 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+240 silly get     via: '1.1 varnish',
+240 silly get     'cache-control': 'max-age=300',
+240 silly get     etag: 'W/"595df5ed-1922"',
+240 silly get     age: '172',
+240 silly get     connection: 'keep-alive',
+240 silly get     'x-served-by': 'cache-sin18030-SIN',
+240 silly get     'x-cache': 'HIT',
+240 silly get     'x-cache-hits': '1',
+240 silly get     'x-timer': 'S1500107272.580850,VS0,VE0',
+240 silly get     vary: 'Accept-Encoding, Accept' } ]
+241 verbose etag https://registry.npmjs.org/connect-flash from cache
+242 verbose get saving connect-flash to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\connect-flash\.cache.json
+243 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+244 http 304 https://registry.npmjs.org/passport
+245 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+245 verbose headers   via: '1.1 varnish',
+245 verbose headers   'cache-control': 'max-age=300',
+245 verbose headers   etag: 'W/"59692c7c-aee6"',
+245 verbose headers   age: '173',
+245 verbose headers   connection: 'keep-alive',
+245 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+245 verbose headers   'x-cache': 'HIT',
+245 verbose headers   'x-cache-hits': '2',
+245 verbose headers   'x-timer': 'S1500107272.582652,VS0,VE0',
+245 verbose headers   vary: 'Accept-Encoding, Accept' }
+246 silly get cb [ 304,
+246 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+246 silly get     via: '1.1 varnish',
+246 silly get     'cache-control': 'max-age=300',
+246 silly get     etag: 'W/"59692c7c-aee6"',
+246 silly get     age: '173',
+246 silly get     connection: 'keep-alive',
+246 silly get     'x-served-by': 'cache-sin18026-SIN',
+246 silly get     'x-cache': 'HIT',
+246 silly get     'x-cache-hits': '2',
+246 silly get     'x-timer': 'S1500107272.582652,VS0,VE0',
+246 silly get     vary: 'Accept-Encoding, Accept' } ]
+247 verbose etag https://registry.npmjs.org/passport from cache
+248 verbose get saving passport to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\passport\.cache.json
+249 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+250 http 304 https://registry.npmjs.org/passport-http
+251 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+251 verbose headers   via: '1.1 varnish',
+251 verbose headers   'cache-control': 'max-age=300',
+251 verbose headers   etag: 'W/"5901ba69-3c0e"',
+251 verbose headers   age: '236',
+251 verbose headers   connection: 'keep-alive',
+251 verbose headers   'x-served-by': 'cache-sin18020-SIN',
+251 verbose headers   'x-cache': 'HIT',
+251 verbose headers   'x-cache-hits': '1',
+251 verbose headers   'x-timer': 'S1500107272.583686,VS0,VE0',
+251 verbose headers   vary: 'Accept-Encoding, Accept' }
+252 silly get cb [ 304,
+252 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+252 silly get     via: '1.1 varnish',
+252 silly get     'cache-control': 'max-age=300',
+252 silly get     etag: 'W/"5901ba69-3c0e"',
+252 silly get     age: '236',
+252 silly get     connection: 'keep-alive',
+252 silly get     'x-served-by': 'cache-sin18020-SIN',
+252 silly get     'x-cache': 'HIT',
+252 silly get     'x-cache-hits': '1',
+252 silly get     'x-timer': 'S1500107272.583686,VS0,VE0',
+252 silly get     vary: 'Accept-Encoding, Accept' } ]
+253 verbose etag https://registry.npmjs.org/passport-http from cache
+254 verbose get saving passport-http to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\passport-http\.cache.json
+255 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+256 http 304 https://registry.npmjs.org/mongodb
+257 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+257 verbose headers   via: '1.1 varnish',
+257 verbose headers   'cache-control': 'max-age=300',
+257 verbose headers   etag: 'W/"5967d00d-98a1a"',
+257 verbose headers   age: '46',
+257 verbose headers   connection: 'keep-alive',
+257 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+257 verbose headers   'x-cache': 'HIT',
+257 verbose headers   'x-cache-hits': '1',
+257 verbose headers   'x-timer': 'S1500107272.586385,VS0,VE1',
+257 verbose headers   vary: 'Accept-Encoding, Accept' }
+258 silly get cb [ 304,
+258 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+258 silly get     via: '1.1 varnish',
+258 silly get     'cache-control': 'max-age=300',
+258 silly get     etag: 'W/"5967d00d-98a1a"',
+258 silly get     age: '46',
+258 silly get     connection: 'keep-alive',
+258 silly get     'x-served-by': 'cache-sin18023-SIN',
+258 silly get     'x-cache': 'HIT',
+258 silly get     'x-cache-hits': '1',
+258 silly get     'x-timer': 'S1500107272.586385,VS0,VE1',
+258 silly get     vary: 'Accept-Encoding, Accept' } ]
+259 verbose etag https://registry.npmjs.org/mongodb from cache
+260 verbose get saving mongodb to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\mongodb\.cache.json
+261 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+262 http 304 https://registry.npmjs.org/passport-local
+263 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+263 verbose headers   via: '1.1 varnish',
+263 verbose headers   'cache-control': 'max-age=300',
+263 verbose headers   etag: 'W/"59529b01-3858"',
+263 verbose headers   age: '172',
+263 verbose headers   connection: 'keep-alive',
+263 verbose headers   'x-served-by': 'cache-sin18033-SIN',
+263 verbose headers   'x-cache': 'HIT',
+263 verbose headers   'x-cache-hits': '1',
+263 verbose headers   'x-timer': 'S1500107272.587277,VS0,VE0',
+263 verbose headers   vary: 'Accept-Encoding, Accept' }
+264 silly get cb [ 304,
+264 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+264 silly get     via: '1.1 varnish',
+264 silly get     'cache-control': 'max-age=300',
+264 silly get     etag: 'W/"59529b01-3858"',
+264 silly get     age: '172',
+264 silly get     connection: 'keep-alive',
+264 silly get     'x-served-by': 'cache-sin18033-SIN',
+264 silly get     'x-cache': 'HIT',
+264 silly get     'x-cache-hits': '1',
+264 silly get     'x-timer': 'S1500107272.587277,VS0,VE0',
+264 silly get     vary: 'Accept-Encoding, Accept' } ]
+265 verbose etag https://registry.npmjs.org/passport-local from cache
+266 verbose get saving passport-local to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\passport-local\.cache.json
+267 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+268 http 304 https://registry.npmjs.org/express-validator
+269 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+269 verbose headers   via: '1.1 varnish',
+269 verbose headers   'cache-control': 'max-age=300',
+269 verbose headers   etag: 'W/"59677298-1f58f"',
+269 verbose headers   age: '236',
+269 verbose headers   connection: 'keep-alive',
+269 verbose headers   'x-served-by': 'cache-sin18020-SIN',
+269 verbose headers   'x-cache': 'HIT',
+269 verbose headers   'x-cache-hits': '1',
+269 verbose headers   'x-timer': 'S1500107272.592665,VS0,VE1',
+269 verbose headers   vary: 'Accept-Encoding, Accept' }
+270 silly get cb [ 304,
+270 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+270 silly get     via: '1.1 varnish',
+270 silly get     'cache-control': 'max-age=300',
+270 silly get     etag: 'W/"59677298-1f58f"',
+270 silly get     age: '236',
+270 silly get     connection: 'keep-alive',
+270 silly get     'x-served-by': 'cache-sin18020-SIN',
+270 silly get     'x-cache': 'HIT',
+270 silly get     'x-cache-hits': '1',
+270 silly get     'x-timer': 'S1500107272.592665,VS0,VE1',
+270 silly get     vary: 'Accept-Encoding, Accept' } ]
+271 verbose etag https://registry.npmjs.org/express-validator from cache
+272 verbose get saving express-validator to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\express-validator\.cache.json
+273 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+274 http 304 https://registry.npmjs.org/mongoose
+275 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+275 verbose headers   via: '1.1 varnish',
+275 verbose headers   'cache-control': 'max-age=300',
+275 verbose headers   etag: 'W/"5969593e-9b95c"',
+275 verbose headers   age: '277',
+275 verbose headers   connection: 'keep-alive',
+275 verbose headers   'x-served-by': 'cache-sin18030-SIN',
+275 verbose headers   'x-cache': 'HIT',
+275 verbose headers   'x-cache-hits': '1',
+275 verbose headers   'x-timer': 'S1500107272.594163,VS0,VE1',
+275 verbose headers   vary: 'Accept-Encoding, Accept' }
+276 silly get cb [ 304,
+276 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+276 silly get     via: '1.1 varnish',
+276 silly get     'cache-control': 'max-age=300',
+276 silly get     etag: 'W/"5969593e-9b95c"',
+276 silly get     age: '277',
+276 silly get     connection: 'keep-alive',
+276 silly get     'x-served-by': 'cache-sin18030-SIN',
+276 silly get     'x-cache': 'HIT',
+276 silly get     'x-cache-hits': '1',
+276 silly get     'x-timer': 'S1500107272.594163,VS0,VE1',
+276 silly get     vary: 'Accept-Encoding, Accept' } ]
+277 verbose etag https://registry.npmjs.org/mongoose from cache
+278 verbose get saving mongoose to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\mongoose\.cache.json
+279 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+280 http 304 https://registry.npmjs.org/express-handlebars
+281 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+281 verbose headers   via: '1.1 varnish',
+281 verbose headers   'cache-control': 'max-age=300',
+281 verbose headers   etag: 'W/"59680cda-b1c7"',
+281 verbose headers   age: '236',
+281 verbose headers   connection: 'keep-alive',
+281 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+281 verbose headers   'x-cache': 'HIT',
+281 verbose headers   'x-cache-hits': '1',
+281 verbose headers   'x-timer': 'S1500107272.596340,VS0,VE1',
+281 verbose headers   vary: 'Accept-Encoding, Accept' }
+282 silly get cb [ 304,
+282 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+282 silly get     via: '1.1 varnish',
+282 silly get     'cache-control': 'max-age=300',
+282 silly get     etag: 'W/"59680cda-b1c7"',
+282 silly get     age: '236',
+282 silly get     connection: 'keep-alive',
+282 silly get     'x-served-by': 'cache-sin18023-SIN',
+282 silly get     'x-cache': 'HIT',
+282 silly get     'x-cache-hits': '1',
+282 silly get     'x-timer': 'S1500107272.596340,VS0,VE1',
+282 silly get     vary: 'Accept-Encoding, Accept' } ]
+283 verbose etag https://registry.npmjs.org/express-handlebars from cache
+284 verbose get saving express-handlebars to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\express-handlebars\.cache.json
+285 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+286 silly resolveWithNewModule express-messages@1.0.1 checking installable status
+287 silly cache add args [ 'express-messages@*', null ]
+288 verbose cache add spec express-messages@*
+289 silly cache add parsed spec Result {
+289 silly cache add   raw: 'express-messages@*',
+289 silly cache add   scope: null,
+289 silly cache add   escapedName: 'express-messages',
+289 silly cache add   name: 'express-messages',
+289 silly cache add   rawSpec: '*',
+289 silly cache add   spec: '*',
+289 silly cache add   type: 'range' }
+290 silly addNamed express-messages@*
+291 verbose addNamed "*" is a valid semver range for express-messages
+292 silly addNameRange { name: 'express-messages', range: '*', hasData: false }
+293 silly mapToRegistry name express-messages
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry data Result {
+296 silly mapToRegistry   raw: 'express-messages',
+296 silly mapToRegistry   scope: null,
+296 silly mapToRegistry   escapedName: 'express-messages',
+296 silly mapToRegistry   name: 'express-messages',
+296 silly mapToRegistry   rawSpec: '',
+296 silly mapToRegistry   spec: 'latest',
+296 silly mapToRegistry   type: 'tag' }
+297 silly mapToRegistry uri https://registry.npmjs.org/express-messages
+298 verbose addNameRange registry:https://registry.npmjs.org/express-messages not in flight; fetching
+299 silly resolveWithNewModule express@4.15.3 checking installable status
+300 silly cache add args [ 'express@*', null ]
+301 verbose cache add spec express@*
+302 silly cache add parsed spec Result {
+302 silly cache add   raw: 'express@*',
+302 silly cache add   scope: null,
+302 silly cache add   escapedName: 'express',
+302 silly cache add   name: 'express',
+302 silly cache add   rawSpec: '*',
+302 silly cache add   spec: '*',
+302 silly cache add   type: 'range' }
+303 silly addNamed express@*
+304 verbose addNamed "*" is a valid semver range for express
+305 silly addNameRange { name: 'express', range: '*', hasData: false }
+306 silly mapToRegistry name express
+307 silly mapToRegistry using default registry
+308 silly mapToRegistry registry https://registry.npmjs.org/
+309 silly mapToRegistry data Result {
+309 silly mapToRegistry   raw: 'express',
+309 silly mapToRegistry   scope: null,
+309 silly mapToRegistry   escapedName: 'express',
+309 silly mapToRegistry   name: 'express',
+309 silly mapToRegistry   rawSpec: '',
+309 silly mapToRegistry   spec: 'latest',
+309 silly mapToRegistry   type: 'tag' }
+310 silly mapToRegistry uri https://registry.npmjs.org/express
+311 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+312 silly resolveWithNewModule body-parser@1.17.2 checking installable status
+313 silly cache add args [ 'body-parser@*', null ]
+314 verbose cache add spec body-parser@*
+315 silly cache add parsed spec Result {
+315 silly cache add   raw: 'body-parser@*',
+315 silly cache add   scope: null,
+315 silly cache add   escapedName: 'body-parser',
+315 silly cache add   name: 'body-parser',
+315 silly cache add   rawSpec: '*',
+315 silly cache add   spec: '*',
+315 silly cache add   type: 'range' }
+316 silly addNamed body-parser@*
+317 verbose addNamed "*" is a valid semver range for body-parser
+318 silly addNameRange { name: 'body-parser', range: '*', hasData: false }
+319 silly mapToRegistry name body-parser
+320 silly mapToRegistry using default registry
+321 silly mapToRegistry registry https://registry.npmjs.org/
+322 silly mapToRegistry data Result {
+322 silly mapToRegistry   raw: 'body-parser',
+322 silly mapToRegistry   scope: null,
+322 silly mapToRegistry   escapedName: 'body-parser',
+322 silly mapToRegistry   name: 'body-parser',
+322 silly mapToRegistry   rawSpec: '',
+322 silly mapToRegistry   spec: 'latest',
+322 silly mapToRegistry   type: 'tag' }
+323 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+324 verbose addNameRange registry:https://registry.npmjs.org/body-parser not in flight; fetching
+325 silly resolveWithNewModule express-session@1.15.3 checking installable status
+326 silly cache add args [ 'express-session@*', null ]
+327 verbose cache add spec express-session@*
+328 silly cache add parsed spec Result {
+328 silly cache add   raw: 'express-session@*',
+328 silly cache add   scope: null,
+328 silly cache add   escapedName: 'express-session',
+328 silly cache add   name: 'express-session',
+328 silly cache add   rawSpec: '*',
+328 silly cache add   spec: '*',
+328 silly cache add   type: 'range' }
+329 silly addNamed express-session@*
+330 verbose addNamed "*" is a valid semver range for express-session
+331 silly addNameRange { name: 'express-session', range: '*', hasData: false }
+332 silly mapToRegistry name express-session
+333 silly mapToRegistry using default registry
+334 silly mapToRegistry registry https://registry.npmjs.org/
+335 silly mapToRegistry data Result {
+335 silly mapToRegistry   raw: 'express-session',
+335 silly mapToRegistry   scope: null,
+335 silly mapToRegistry   escapedName: 'express-session',
+335 silly mapToRegistry   name: 'express-session',
+335 silly mapToRegistry   rawSpec: '',
+335 silly mapToRegistry   spec: 'latest',
+335 silly mapToRegistry   type: 'tag' }
+336 silly mapToRegistry uri https://registry.npmjs.org/express-session
+337 verbose addNameRange registry:https://registry.npmjs.org/express-session not in flight; fetching
+338 silly resolveWithNewModule cookie-parser@1.4.3 checking installable status
+339 silly cache add args [ 'cookie-parser@^1.4.1', null ]
+340 verbose cache add spec cookie-parser@^1.4.1
+341 silly cache add parsed spec Result {
+341 silly cache add   raw: 'cookie-parser@^1.4.1',
+341 silly cache add   scope: null,
+341 silly cache add   escapedName: 'cookie-parser',
+341 silly cache add   name: 'cookie-parser',
+341 silly cache add   rawSpec: '^1.4.1',
+341 silly cache add   spec: '>=1.4.1 <2.0.0',
+341 silly cache add   type: 'range' }
+342 silly addNamed cookie-parser@>=1.4.1 <2.0.0
+343 verbose addNamed ">=1.4.1 <2.0.0" is a valid semver range for cookie-parser
+344 silly addNameRange { name: 'cookie-parser',
+344 silly addNameRange   range: '>=1.4.1 <2.0.0',
+344 silly addNameRange   hasData: false }
+345 silly mapToRegistry name cookie-parser
+346 silly mapToRegistry using default registry
+347 silly mapToRegistry registry https://registry.npmjs.org/
+348 silly mapToRegistry data Result {
+348 silly mapToRegistry   raw: 'cookie-parser',
+348 silly mapToRegistry   scope: null,
+348 silly mapToRegistry   escapedName: 'cookie-parser',
+348 silly mapToRegistry   name: 'cookie-parser',
+348 silly mapToRegistry   rawSpec: '',
+348 silly mapToRegistry   spec: 'latest',
+348 silly mapToRegistry   type: 'tag' }
+349 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+350 verbose addNameRange registry:https://registry.npmjs.org/cookie-parser not in flight; fetching
+351 silly resolveWithNewModule passport@0.3.2 checking installable status
+352 silly cache add args [ 'passport@*', null ]
+353 verbose cache add spec passport@*
+354 silly cache add parsed spec Result {
+354 silly cache add   raw: 'passport@*',
+354 silly cache add   scope: null,
+354 silly cache add   escapedName: 'passport',
+354 silly cache add   name: 'passport',
+354 silly cache add   rawSpec: '*',
+354 silly cache add   spec: '*',
+354 silly cache add   type: 'range' }
+355 silly addNamed passport@*
+356 verbose addNamed "*" is a valid semver range for passport
+357 silly addNameRange { name: 'passport', range: '*', hasData: false }
+358 silly mapToRegistry name passport
+359 silly mapToRegistry using default registry
+360 silly mapToRegistry registry https://registry.npmjs.org/
+361 silly mapToRegistry data Result {
+361 silly mapToRegistry   raw: 'passport',
+361 silly mapToRegistry   scope: null,
+361 silly mapToRegistry   escapedName: 'passport',
+361 silly mapToRegistry   name: 'passport',
+361 silly mapToRegistry   rawSpec: '',
+361 silly mapToRegistry   spec: 'latest',
+361 silly mapToRegistry   type: 'tag' }
+362 silly mapToRegistry uri https://registry.npmjs.org/passport
+363 verbose addNameRange registry:https://registry.npmjs.org/passport not in flight; fetching
+364 silly resolveWithNewModule connect-flash@0.1.1 checking installable status
+365 silly cache add args [ 'connect-flash@*', null ]
+366 verbose cache add spec connect-flash@*
+367 silly cache add parsed spec Result {
+367 silly cache add   raw: 'connect-flash@*',
+367 silly cache add   scope: null,
+367 silly cache add   escapedName: 'connect-flash',
+367 silly cache add   name: 'connect-flash',
+367 silly cache add   rawSpec: '*',
+367 silly cache add   spec: '*',
+367 silly cache add   type: 'range' }
+368 silly addNamed connect-flash@*
+369 verbose addNamed "*" is a valid semver range for connect-flash
+370 silly addNameRange { name: 'connect-flash', range: '*', hasData: false }
+371 silly mapToRegistry name connect-flash
+372 silly mapToRegistry using default registry
+373 silly mapToRegistry registry https://registry.npmjs.org/
+374 silly mapToRegistry data Result {
+374 silly mapToRegistry   raw: 'connect-flash',
+374 silly mapToRegistry   scope: null,
+374 silly mapToRegistry   escapedName: 'connect-flash',
+374 silly mapToRegistry   name: 'connect-flash',
+374 silly mapToRegistry   rawSpec: '',
+374 silly mapToRegistry   spec: 'latest',
+374 silly mapToRegistry   type: 'tag' }
+375 silly mapToRegistry uri https://registry.npmjs.org/connect-flash
+376 verbose addNameRange registry:https://registry.npmjs.org/connect-flash not in flight; fetching
+377 silly resolveWithNewModule passport-http@0.3.0 checking installable status
+378 silly cache add args [ 'passport-http@*', null ]
+379 verbose cache add spec passport-http@*
+380 silly cache add parsed spec Result {
+380 silly cache add   raw: 'passport-http@*',
+380 silly cache add   scope: null,
+380 silly cache add   escapedName: 'passport-http',
+380 silly cache add   name: 'passport-http',
+380 silly cache add   rawSpec: '*',
+380 silly cache add   spec: '*',
+380 silly cache add   type: 'range' }
+381 silly addNamed passport-http@*
+382 verbose addNamed "*" is a valid semver range for passport-http
+383 silly addNameRange { name: 'passport-http', range: '*', hasData: false }
+384 silly mapToRegistry name passport-http
+385 silly mapToRegistry using default registry
+386 silly mapToRegistry registry https://registry.npmjs.org/
+387 silly mapToRegistry data Result {
+387 silly mapToRegistry   raw: 'passport-http',
+387 silly mapToRegistry   scope: null,
+387 silly mapToRegistry   escapedName: 'passport-http',
+387 silly mapToRegistry   name: 'passport-http',
+387 silly mapToRegistry   rawSpec: '',
+387 silly mapToRegistry   spec: 'latest',
+387 silly mapToRegistry   type: 'tag' }
+388 silly mapToRegistry uri https://registry.npmjs.org/passport-http
+389 verbose addNameRange registry:https://registry.npmjs.org/passport-http not in flight; fetching
+390 silly resolveWithNewModule mongodb@2.2.30 checking installable status
+391 silly cache add args [ 'mongodb@*', null ]
+392 verbose cache add spec mongodb@*
+393 silly cache add parsed spec Result {
+393 silly cache add   raw: 'mongodb@*',
+393 silly cache add   scope: null,
+393 silly cache add   escapedName: 'mongodb',
+393 silly cache add   name: 'mongodb',
+393 silly cache add   rawSpec: '*',
+393 silly cache add   spec: '*',
+393 silly cache add   type: 'range' }
+394 silly addNamed mongodb@*
+395 verbose addNamed "*" is a valid semver range for mongodb
+396 silly addNameRange { name: 'mongodb', range: '*', hasData: false }
+397 silly mapToRegistry name mongodb
+398 silly mapToRegistry using default registry
+399 silly mapToRegistry registry https://registry.npmjs.org/
+400 silly mapToRegistry data Result {
+400 silly mapToRegistry   raw: 'mongodb',
+400 silly mapToRegistry   scope: null,
+400 silly mapToRegistry   escapedName: 'mongodb',
+400 silly mapToRegistry   name: 'mongodb',
+400 silly mapToRegistry   rawSpec: '',
+400 silly mapToRegistry   spec: 'latest',
+400 silly mapToRegistry   type: 'tag' }
+401 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+402 verbose addNameRange registry:https://registry.npmjs.org/mongodb not in flight; fetching
+403 silly resolveWithNewModule passport-local@1.0.0 checking installable status
+404 silly cache add args [ 'passport-local@*', null ]
+405 verbose cache add spec passport-local@*
+406 silly cache add parsed spec Result {
+406 silly cache add   raw: 'passport-local@*',
+406 silly cache add   scope: null,
+406 silly cache add   escapedName: 'passport-local',
+406 silly cache add   name: 'passport-local',
+406 silly cache add   rawSpec: '*',
+406 silly cache add   spec: '*',
+406 silly cache add   type: 'range' }
+407 silly addNamed passport-local@*
+408 verbose addNamed "*" is a valid semver range for passport-local
+409 silly addNameRange { name: 'passport-local', range: '*', hasData: false }
+410 silly mapToRegistry name passport-local
+411 silly mapToRegistry using default registry
+412 silly mapToRegistry registry https://registry.npmjs.org/
+413 silly mapToRegistry data Result {
+413 silly mapToRegistry   raw: 'passport-local',
+413 silly mapToRegistry   scope: null,
+413 silly mapToRegistry   escapedName: 'passport-local',
+413 silly mapToRegistry   name: 'passport-local',
+413 silly mapToRegistry   rawSpec: '',
+413 silly mapToRegistry   spec: 'latest',
+413 silly mapToRegistry   type: 'tag' }
+414 silly mapToRegistry uri https://registry.npmjs.org/passport-local
+415 verbose addNameRange registry:https://registry.npmjs.org/passport-local not in flight; fetching
+416 silly resolveWithNewModule express-validator@3.2.1 checking installable status
+417 silly cache add args [ 'express-validator@*', null ]
+418 verbose cache add spec express-validator@*
+419 silly cache add parsed spec Result {
+419 silly cache add   raw: 'express-validator@*',
+419 silly cache add   scope: null,
+419 silly cache add   escapedName: 'express-validator',
+419 silly cache add   name: 'express-validator',
+419 silly cache add   rawSpec: '*',
+419 silly cache add   spec: '*',
+419 silly cache add   type: 'range' }
+420 silly addNamed express-validator@*
+421 verbose addNamed "*" is a valid semver range for express-validator
+422 silly addNameRange { name: 'express-validator', range: '*', hasData: false }
+423 silly mapToRegistry name express-validator
+424 silly mapToRegistry using default registry
+425 silly mapToRegistry registry https://registry.npmjs.org/
+426 silly mapToRegistry data Result {
+426 silly mapToRegistry   raw: 'express-validator',
+426 silly mapToRegistry   scope: null,
+426 silly mapToRegistry   escapedName: 'express-validator',
+426 silly mapToRegistry   name: 'express-validator',
+426 silly mapToRegistry   rawSpec: '',
+426 silly mapToRegistry   spec: 'latest',
+426 silly mapToRegistry   type: 'tag' }
+427 silly mapToRegistry uri https://registry.npmjs.org/express-validator
+428 verbose addNameRange registry:https://registry.npmjs.org/express-validator not in flight; fetching
+429 silly resolveWithNewModule mongoose@4.11.3 checking installable status
+430 silly cache add args [ 'mongoose@*', null ]
+431 verbose cache add spec mongoose@*
+432 silly cache add parsed spec Result {
+432 silly cache add   raw: 'mongoose@*',
+432 silly cache add   scope: null,
+432 silly cache add   escapedName: 'mongoose',
+432 silly cache add   name: 'mongoose',
+432 silly cache add   rawSpec: '*',
+432 silly cache add   spec: '*',
+432 silly cache add   type: 'range' }
+433 silly addNamed mongoose@*
+434 verbose addNamed "*" is a valid semver range for mongoose
+435 silly addNameRange { name: 'mongoose', range: '*', hasData: false }
+436 silly mapToRegistry name mongoose
+437 silly mapToRegistry using default registry
+438 silly mapToRegistry registry https://registry.npmjs.org/
+439 silly mapToRegistry data Result {
+439 silly mapToRegistry   raw: 'mongoose',
+439 silly mapToRegistry   scope: null,
+439 silly mapToRegistry   escapedName: 'mongoose',
+439 silly mapToRegistry   name: 'mongoose',
+439 silly mapToRegistry   rawSpec: '',
+439 silly mapToRegistry   spec: 'latest',
+439 silly mapToRegistry   type: 'tag' }
+440 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+441 verbose addNameRange registry:https://registry.npmjs.org/mongoose not in flight; fetching
+442 verbose get https://registry.npmjs.org/express-messages not expired, no request
+443 silly addNameRange number 2 { name: 'express-messages', range: '*', hasData: true }
+444 silly addNameRange versions [ 'express-messages', [ '0.0.1', '0.0.2', '1.0.0', '1.0.1' ] ]
+445 silly addNamed express-messages@1.0.1
+446 verbose addNamed "1.0.1" is a plain semver version for express-messages
+447 verbose get https://registry.npmjs.org/body-parser not expired, no request
+448 silly addNameRange number 2 { name: 'body-parser', range: '*', hasData: true }
+449 silly addNameRange versions [ 'body-parser',
+449 silly addNameRange   [ '1.0.0',
+449 silly addNameRange     '1.0.1',
+449 silly addNameRange     '1.0.2',
+449 silly addNameRange     '1.1.0',
+449 silly addNameRange     '1.1.1',
+449 silly addNameRange     '1.1.2',
+449 silly addNameRange     '1.2.0',
+449 silly addNameRange     '1.2.1',
+449 silly addNameRange     '1.2.2',
+449 silly addNameRange     '1.3.0',
+449 silly addNameRange     '1.3.1',
+449 silly addNameRange     '1.4.0',
+449 silly addNameRange     '1.4.1',
+449 silly addNameRange     '1.4.2',
+449 silly addNameRange     '1.4.3',
+449 silly addNameRange     '1.5.0',
+449 silly addNameRange     '1.5.1',
+449 silly addNameRange     '1.5.2',
+449 silly addNameRange     '1.6.0',
+449 silly addNameRange     '1.6.1',
+449 silly addNameRange     '1.6.2',
+449 silly addNameRange     '1.6.3',
+449 silly addNameRange     '1.6.4',
+449 silly addNameRange     '1.6.5',
+449 silly addNameRange     '1.6.6',
+449 silly addNameRange     '1.6.7',
+449 silly addNameRange     '1.7.0',
+449 silly addNameRange     '1.8.0',
+449 silly addNameRange     '1.8.1',
+449 silly addNameRange     '1.8.2',
+449 silly addNameRange     '1.8.3',
+449 silly addNameRange     '1.8.4',
+449 silly addNameRange     '1.9.0',
+449 silly addNameRange     '1.9.1',
+449 silly addNameRange     '1.9.2',
+449 silly addNameRange     '1.9.3',
+449 silly addNameRange     '1.10.0',
+449 silly addNameRange     '1.10.1',
+449 silly addNameRange     '1.10.2',
+449 silly addNameRange     '1.11.0',
+449 silly addNameRange     '1.12.0',
+449 silly addNameRange     '1.12.1',
+449 silly addNameRange     '1.12.2',
+449 silly addNameRange     '1.12.3',
+449 silly addNameRange     '1.12.4',
+449 silly addNameRange     '1.13.0',
+449 silly addNameRange     '1.13.1',
+449 silly addNameRange     '1.13.2',
+449 silly addNameRange     '1.13.3',
+449 silly addNameRange     '1.14.0',
+449 silly addNameRange     '1.14.1',
+449 silly addNameRange     '1.14.2',
+449 silly addNameRange     '1.15.0',
+449 silly addNameRange     '1.15.1',
+449 silly addNameRange     '1.15.2',
+449 silly addNameRange     '1.16.0',
+449 silly addNameRange     '1.16.1',
+449 silly addNameRange     '1.17.0',
+449 silly addNameRange     '1.17.1',
+449 silly addNameRange     '1.17.2' ] ]
+450 silly addNamed body-parser@1.17.2
+451 verbose addNamed "1.17.2" is a plain semver version for body-parser
+452 verbose get https://registry.npmjs.org/express-session not expired, no request
+453 silly addNameRange number 2 { name: 'express-session', range: '*', hasData: true }
+454 silly addNameRange versions [ 'express-session',
+454 silly addNameRange   [ '1.0.0',
+454 silly addNameRange     '1.0.1',
+454 silly addNameRange     '1.0.2',
+454 silly addNameRange     '1.0.3',
+454 silly addNameRange     '1.0.4',
+454 silly addNameRange     '1.1.0',
+454 silly addNameRange     '1.2.0',
+454 silly addNameRange     '1.2.1',
+454 silly addNameRange     '1.3.0',
+454 silly addNameRange     '1.3.1',
+454 silly addNameRange     '1.4.0',
+454 silly addNameRange     '1.5.0',
+454 silly addNameRange     '1.5.1',
+454 silly addNameRange     '1.5.2',
+454 silly addNameRange     '1.6.0',
+454 silly addNameRange     '1.6.1',
+454 silly addNameRange     '1.6.2',
+454 silly addNameRange     '1.6.3',
+454 silly addNameRange     '1.6.4',
+454 silly addNameRange     '1.6.5',
+454 silly addNameRange     '1.7.0',
+454 silly addNameRange     '1.7.1',
+454 silly addNameRange     '1.7.2',
+454 silly addNameRange     '1.7.3',
+454 silly addNameRange     '1.7.4',
+454 silly addNameRange     '1.7.5',
+454 silly addNameRange     '1.7.6',
+454 silly addNameRange     '1.8.0',
+454 silly addNameRange     '1.8.1',
+454 silly addNameRange     '1.8.2',
+454 silly addNameRange     '1.9.0',
+454 silly addNameRange     '1.9.1',
+454 silly addNameRange     '1.9.2',
+454 silly addNameRange     '1.9.3',
+454 silly addNameRange     '1.10.0',
+454 silly addNameRange     '1.10.1',
+454 silly addNameRange     '1.10.2',
+454 silly addNameRange     '1.10.3',
+454 silly addNameRange     '1.10.4',
+454 silly addNameRange     '1.11.0',
+454 silly addNameRange     '1.11.1',
+454 silly addNameRange     '1.11.2',
+454 silly addNameRange     '1.11.3',
+454 silly addNameRange     '1.12.0',
+454 silly addNameRange     '1.12.1',
+454 silly addNameRange     '1.13.0',
+454 silly addNameRange     '1.14.0',
+454 silly addNameRange     '1.14.1',
+454 silly addNameRange     '1.14.2',
+454 silly addNameRange     '1.15.0',
+454 silly addNameRange     '1.15.1',
+454 silly addNameRange     '1.15.2',
+454 silly addNameRange     '1.15.3' ] ]
+455 silly addNamed express-session@1.15.3
+456 verbose addNamed "1.15.3" is a plain semver version for express-session
+457 verbose get https://registry.npmjs.org/cookie-parser not expired, no request
+458 silly addNameRange number 2 { name: 'cookie-parser', range: '>=1.4.1 <2.0.0', hasData: true }
+459 silly addNameRange versions [ 'cookie-parser',
+459 silly addNameRange   [ '1.0.0',
+459 silly addNameRange     '1.0.1',
+459 silly addNameRange     '1.1.0',
+459 silly addNameRange     '1.2.0',
+459 silly addNameRange     '1.3.0',
+459 silly addNameRange     '1.3.1',
+459 silly addNameRange     '1.3.2',
+459 silly addNameRange     '1.3.3',
+459 silly addNameRange     '1.3.4',
+459 silly addNameRange     '1.3.5',
+459 silly addNameRange     '1.4.0',
+459 silly addNameRange     '1.4.1',
+459 silly addNameRange     '1.4.2',
+459 silly addNameRange     '1.4.3' ] ]
+460 silly addNamed cookie-parser@1.4.3
+461 verbose addNamed "1.4.3" is a plain semver version for cookie-parser
+462 verbose get https://registry.npmjs.org/connect-flash not expired, no request
+463 silly addNameRange number 2 { name: 'connect-flash', range: '*', hasData: true }
+464 silly addNameRange versions [ 'connect-flash', [ '0.1.0', '0.1.1' ] ]
+465 silly addNamed connect-flash@0.1.1
+466 verbose addNamed "0.1.1" is a plain semver version for connect-flash
+467 verbose get https://registry.npmjs.org/express not expired, no request
+468 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+469 silly addNameRange versions [ 'express',
+469 silly addNameRange   [ '0.14.0',
+469 silly addNameRange     '0.14.1',
+469 silly addNameRange     '1.0.0',
+469 silly addNameRange     '1.0.1',
+469 silly addNameRange     '1.0.2',
+469 silly addNameRange     '1.0.3',
+469 silly addNameRange     '1.0.4',
+469 silly addNameRange     '1.0.5',
+469 silly addNameRange     '1.0.6',
+469 silly addNameRange     '1.0.7',
+469 silly addNameRange     '1.0.8',
+469 silly addNameRange     '2.0.0',
+469 silly addNameRange     '2.1.0',
+469 silly addNameRange     '2.1.1',
+469 silly addNameRange     '2.2.0',
+469 silly addNameRange     '2.2.1',
+469 silly addNameRange     '2.2.2',
+469 silly addNameRange     '2.3.0',
+469 silly addNameRange     '2.3.1',
+469 silly addNameRange     '2.3.2',
+469 silly addNameRange     '2.3.3',
+469 silly addNameRange     '2.3.4',
+469 silly addNameRange     '2.3.5',
+469 silly addNameRange     '2.3.6',
+469 silly addNameRange     '2.3.7',
+469 silly addNameRange     '2.3.8',
+469 silly addNameRange     '2.3.9',
+469 silly addNameRange     '2.3.10',
+469 silly addNameRange     '2.3.11',
+469 silly addNameRange     '2.3.12',
+469 silly addNameRange     '2.4.0',
+469 silly addNameRange     '2.4.1',
+469 silly addNameRange     '2.4.2',
+469 silly addNameRange     '2.4.3',
+469 silly addNameRange     '2.4.4',
+469 silly addNameRange     '2.4.5',
+469 silly addNameRange     '2.4.6',
+469 silly addNameRange     '2.4.7',
+469 silly addNameRange     '2.5.0',
+469 silly addNameRange     '2.5.1',
+469 silly addNameRange     '2.5.2',
+469 silly addNameRange     '2.5.3',
+469 silly addNameRange     '2.5.4',
+469 silly addNameRange     '2.5.5',
+469 silly addNameRange     '2.5.6',
+469 silly addNameRange     '2.5.7',
+469 silly addNameRange     '2.5.8',
+469 silly addNameRange     '2.5.9',
+469 silly addNameRange     '2.5.10',
+469 silly addNameRange     '2.5.11',
+469 silly addNameRange     '3.0.0',
+469 silly addNameRange     '3.0.1',
+469 silly addNameRange     '3.0.2',
+469 silly addNameRange     '3.0.3',
+469 silly addNameRange     '3.0.4',
+469 silly addNameRange     '3.0.5',
+469 silly addNameRange     '3.0.6',
+469 silly addNameRange     '3.1.0',
+469 silly addNameRange     '3.1.1',
+469 silly addNameRange     '3.1.2',
+469 silly addNameRange     '3.2.0',
+469 silly addNameRange     '3.2.1',
+469 silly addNameRange     '3.2.2',
+469 silly addNameRange     '3.2.3',
+469 silly addNameRange     '3.2.4',
+469 silly addNameRange     '3.2.5',
+469 silly addNameRange     '3.2.6',
+469 silly addNameRange     '3.3.0',
+469 silly addNameRange     '3.3.1',
+469 silly addNameRange     '3.3.2',
+469 silly addNameRange     '3.3.3',
+469 silly addNameRange     '3.3.4',
+469 silly addNameRange     '3.3.5',
+469 silly addNameRange     '3.3.6',
+469 silly addNameRange     '1.0.0-beta',
+469 silly addNameRange     '1.0.0-beta2',
+469 silly addNameRange     '1.0.0-rc',
+469 silly addNameRange     '1.0.0-rc2',
+469 silly addNameRange     '1.0.0-rc3',
+469 silly addNameRange     '1.0.0-rc4',
+469 silly addNameRange     '2.0.0-beta',
+469 silly addNameRange     '2.0.0-beta2',
+469 silly addNameRange     '2.0.0-beta3',
+469 silly addNameRange     '2.0.0-rc',
+469 silly addNameRange     '2.0.0-rc2',
+469 silly addNameRange     '2.0.0-rc3',
+469 silly addNameRange     '3.0.0-alpha1',
+469 silly addNameRange     '3.0.0-alpha2',
+469 silly addNameRange     '3.0.0-alpha3',
+469 silly addNameRange     '3.0.0-alpha4',
+469 silly addNameRange     '3.0.0-alpha5',
+469 silly addNameRange     '3.0.0-beta1',
+469 silly addNameRange     '3.0.0-beta2',
+469 silly addNameRange     '3.0.0-beta3',
+469 silly addNameRange     '3.0.0-beta4',
+469 silly addNameRange     '3.0.0-beta6',
+469 silly addNameRange     '3.0.0-beta7',
+469 silly addNameRange     '3.0.0-rc1',
+469 silly addNameRange     '3.0.0-rc2',
+469 silly addNameRange     '3.0.0-rc3',
+469 silly addNameRange     ... 152 more items ] ]
+470 silly addNamed express@4.15.3
+471 verbose addNamed "4.15.3" is a plain semver version for express
+472 verbose get https://registry.npmjs.org/passport not expired, no request
+473 silly addNameRange number 2 { name: 'passport', range: '*', hasData: true }
+474 silly addNameRange versions [ 'passport',
+474 silly addNameRange   [ '0.1.0',
+474 silly addNameRange     '0.1.1',
+474 silly addNameRange     '0.1.2',
+474 silly addNameRange     '0.1.3',
+474 silly addNameRange     '0.1.4',
+474 silly addNameRange     '0.1.5',
+474 silly addNameRange     '0.1.6',
+474 silly addNameRange     '0.1.7',
+474 silly addNameRange     '0.1.8',
+474 silly addNameRange     '0.1.9',
+474 silly addNameRange     '0.1.10',
+474 silly addNameRange     '0.1.11',
+474 silly addNameRange     '0.1.12',
+474 silly addNameRange     '0.1.13',
+474 silly addNameRange     '0.1.14',
+474 silly addNameRange     '0.1.15',
+474 silly addNameRange     '0.1.16',
+474 silly addNameRange     '0.1.17',
+474 silly addNameRange     '0.1.18',
+474 silly addNameRange     '0.2.0',
+474 silly addNameRange     '0.2.1',
+474 silly addNameRange     '0.2.2',
+474 silly addNameRange     '0.3.0',
+474 silly addNameRange     '0.3.1',
+474 silly addNameRange     '0.3.2' ] ]
+475 silly addNamed passport@0.3.2
+476 verbose addNamed "0.3.2" is a plain semver version for passport
+477 verbose get https://registry.npmjs.org/passport-http not expired, no request
+478 silly addNameRange number 2 { name: 'passport-http', range: '*', hasData: true }
+479 silly addNameRange versions [ 'passport-http',
+479 silly addNameRange   [ '0.1.0',
+479 silly addNameRange     '0.1.1',
+479 silly addNameRange     '0.1.2',
+479 silly addNameRange     '0.1.3',
+479 silly addNameRange     '0.1.4',
+479 silly addNameRange     '0.2.0',
+479 silly addNameRange     '0.2.1',
+479 silly addNameRange     '0.2.2',
+479 silly addNameRange     '0.3.0' ] ]
+480 silly addNamed passport-http@0.3.0
+481 verbose addNamed "0.3.0" is a plain semver version for passport-http
+482 silly resolveWithNewModule express-handlebars@3.0.0 checking installable status
+483 silly cache add args [ 'express-handlebars@*', null ]
+484 verbose cache add spec express-handlebars@*
+485 silly cache add parsed spec Result {
+485 silly cache add   raw: 'express-handlebars@*',
+485 silly cache add   scope: null,
+485 silly cache add   escapedName: 'express-handlebars',
+485 silly cache add   name: 'express-handlebars',
+485 silly cache add   rawSpec: '*',
+485 silly cache add   spec: '*',
+485 silly cache add   type: 'range' }
+486 silly addNamed express-handlebars@*
+487 verbose addNamed "*" is a valid semver range for express-handlebars
+488 silly addNameRange { name: 'express-handlebars', range: '*', hasData: false }
+489 silly mapToRegistry name express-handlebars
+490 silly mapToRegistry using default registry
+491 silly mapToRegistry registry https://registry.npmjs.org/
+492 silly mapToRegistry data Result {
+492 silly mapToRegistry   raw: 'express-handlebars',
+492 silly mapToRegistry   scope: null,
+492 silly mapToRegistry   escapedName: 'express-handlebars',
+492 silly mapToRegistry   name: 'express-handlebars',
+492 silly mapToRegistry   rawSpec: '',
+492 silly mapToRegistry   spec: 'latest',
+492 silly mapToRegistry   type: 'tag' }
+493 silly mapToRegistry uri https://registry.npmjs.org/express-handlebars
+494 verbose addNameRange registry:https://registry.npmjs.org/express-handlebars not in flight; fetching
+495 verbose get https://registry.npmjs.org/mongodb not expired, no request
+496 silly addNameRange number 2 { name: 'mongodb', range: '*', hasData: true }
+497 silly addNameRange versions [ 'mongodb',
+497 silly addNameRange   [ '0.9.4',
+497 silly addNameRange     '0.9.4-4',
+497 silly addNameRange     '0.9.3',
+497 silly addNameRange     '0.9.1',
+497 silly addNameRange     '0.9.2',
+497 silly addNameRange     '0.9.6-7',
+497 silly addNameRange     '0.9.6-8',
+497 silly addNameRange     '0.9.6-9',
+497 silly addNameRange     '0.9.6-10',
+497 silly addNameRange     '0.9.6-11',
+497 silly addNameRange     '0.9.6-12',
+497 silly addNameRange     '0.9.6-13',
+497 silly addNameRange     '0.9.6-14',
+497 silly addNameRange     '0.9.6-15',
+497 silly addNameRange     '0.9.6-16',
+497 silly addNameRange     '0.9.6-17',
+497 silly addNameRange     '0.9.6-18',
+497 silly addNameRange     '0.9.6-19',
+497 silly addNameRange     '0.9.6-20',
+497 silly addNameRange     '0.9.6-21',
+497 silly addNameRange     '0.9.6-22',
+497 silly addNameRange     '0.9.6-23',
+497 silly addNameRange     '0.9.7',
+497 silly addNameRange     '0.9.7-0',
+497 silly addNameRange     '0.9.7-1',
+497 silly addNameRange     '0.9.7-1.1',
+497 silly addNameRange     '0.9.7-1.2',
+497 silly addNameRange     '0.9.7-1.3',
+497 silly addNameRange     '0.9.7-1.4',
+497 silly addNameRange     '0.9.7-2',
+497 silly addNameRange     '0.9.7-2-1',
+497 silly addNameRange     '0.9.7-2-2',
+497 silly addNameRange     '0.9.7-2-3',
+497 silly addNameRange     '0.9.7-2-4',
+497 silly addNameRange     '0.9.7-2-5',
+497 silly addNameRange     '0.9.7-3',
+497 silly addNameRange     '0.9.7-3-1',
+497 silly addNameRange     '0.9.7-3-2',
+497 silly addNameRange     '0.9.7-3-3',
+497 silly addNameRange     '0.9.7-3-4',
+497 silly addNameRange     '0.9.7-3-5',
+497 silly addNameRange     '0.9.8',
+497 silly addNameRange     '0.9.8-1',
+497 silly addNameRange     '0.9.8-2',
+497 silly addNameRange     '0.9.8-3',
+497 silly addNameRange     '0.9.8-4',
+497 silly addNameRange     '0.9.8-5',
+497 silly addNameRange     '0.9.8-6',
+497 silly addNameRange     '0.9.8-7',
+497 silly addNameRange     '0.9.9',
+497 silly addNameRange     '0.9.9-1',
+497 silly addNameRange     '0.9.9-2',
+497 silly addNameRange     '0.9.9-3',
+497 silly addNameRange     '0.9.9-4',
+497 silly addNameRange     '0.9.9-5',
+497 silly addNameRange     '0.9.9-6',
+497 silly addNameRange     '0.9.9-7',
+497 silly addNameRange     '0.9.9-8',
+497 silly addNameRange     '1.0.0',
+497 silly addNameRange     '1.0.1',
+497 silly addNameRange     '1.0.2',
+497 silly addNameRange     '1.1.0-beta',
+497 silly addNameRange     '1.1.0',
+497 silly addNameRange     '1.1.1',
+497 silly addNameRange     '1.1.2',
+497 silly addNameRange     '1.1.3',
+497 silly addNameRange     '1.1.4',
+497 silly addNameRange     '1.1.5',
+497 silly addNameRange     '1.1.6',
+497 silly addNameRange     '1.1.7',
+497 silly addNameRange     '1.1.8',
+497 silly addNameRange     '1.1.9',
+497 silly addNameRange     '1.1.10',
+497 silly addNameRange     '1.1.11',
+497 silly addNameRange     '1.2.0',
+497 silly addNameRange     '1.2.1',
+497 silly addNameRange     '1.2.2',
+497 silly addNameRange     '1.2.3',
+497 silly addNameRange     '1.2.4',
+497 silly addNameRange     '1.2.5',
+497 silly addNameRange     '1.2.6',
+497 silly addNameRange     '1.2.7',
+497 silly addNameRange     '1.2.8',
+497 silly addNameRange     '1.2.9',
+497 silly addNameRange     '1.2.10',
+497 silly addNameRange     '1.2.11',
+497 silly addNameRange     '1.2.12',
+497 silly addNameRange     '1.2.13',
+497 silly addNameRange     '1.2.14',
+497 silly addNameRange     '1.3.0',
+497 silly addNameRange     '1.3.1',
+497 silly addNameRange     '1.3.2',
+497 silly addNameRange     '1.3.3',
+497 silly addNameRange     '1.3.4',
+497 silly addNameRange     '1.3.5',
+497 silly addNameRange     '1.3.6',
+497 silly addNameRange     '1.3.7',
+497 silly addNameRange     '1.3.8',
+497 silly addNameRange     '1.3.9',
+497 silly addNameRange     '1.3.10',
+497 silly addNameRange     ... 178 more items ] ]
+498 silly addNamed mongodb@2.2.30
+499 verbose addNamed "2.2.30" is a plain semver version for mongodb
+500 verbose get https://registry.npmjs.org/passport-local not expired, no request
+501 silly addNameRange number 2 { name: 'passport-local', range: '*', hasData: true }
+502 silly addNameRange versions [ 'passport-local',
+502 silly addNameRange   [ '0.1.0',
+502 silly addNameRange     '0.1.1',
+502 silly addNameRange     '0.1.2',
+502 silly addNameRange     '0.1.3',
+502 silly addNameRange     '0.1.4',
+502 silly addNameRange     '0.1.5',
+502 silly addNameRange     '0.1.6',
+502 silly addNameRange     '1.0.0' ] ]
+503 silly addNamed passport-local@1.0.0
+504 verbose addNamed "1.0.0" is a plain semver version for passport-local
+505 http 304 https://registry.npmjs.org/bcryptjs
+506 verbose headers { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+506 verbose headers   via: '1.1 varnish',
+506 verbose headers   'cache-control': 'max-age=300',
+506 verbose headers   etag: 'W/"5968d75b-f18c"',
+506 verbose headers   age: '0',
+506 verbose headers   connection: 'keep-alive',
+506 verbose headers   'x-served-by': 'cache-sin18028-SIN',
+506 verbose headers   'x-cache': 'HIT',
+506 verbose headers   'x-cache-hits': '1',
+506 verbose headers   'x-timer': 'S1500107272.604867,VS0,VE148',
+506 verbose headers   vary: 'Accept-Encoding, Accept' }
+507 silly get cb [ 304,
+507 silly get   { date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+507 silly get     via: '1.1 varnish',
+507 silly get     'cache-control': 'max-age=300',
+507 silly get     etag: 'W/"5968d75b-f18c"',
+507 silly get     age: '0',
+507 silly get     connection: 'keep-alive',
+507 silly get     'x-served-by': 'cache-sin18028-SIN',
+507 silly get     'x-cache': 'HIT',
+507 silly get     'x-cache-hits': '1',
+507 silly get     'x-timer': 'S1500107272.604867,VS0,VE148',
+507 silly get     vary: 'Accept-Encoding, Accept' } ]
+508 verbose etag https://registry.npmjs.org/bcryptjs from cache
+509 verbose get saving bcryptjs to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\bcryptjs\.cache.json
+510 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+511 verbose get https://registry.npmjs.org/express-validator not expired, no request
+512 silly addNameRange number 2 { name: 'express-validator', range: '*', hasData: true }
+513 silly addNameRange versions [ 'express-validator',
+513 silly addNameRange   [ '0.1.0',
+513 silly addNameRange     '0.1.1',
+513 silly addNameRange     '0.1.2',
+513 silly addNameRange     '0.1.3',
+513 silly addNameRange     '0.2.0',
+513 silly addNameRange     '0.2.1',
+513 silly addNameRange     '0.2.2',
+513 silly addNameRange     '0.2.3',
+513 silly addNameRange     '0.2.4',
+513 silly addNameRange     '0.3.0',
+513 silly addNameRange     '0.3.1',
+513 silly addNameRange     '0.3.2',
+513 silly addNameRange     '0.4.0',
+513 silly addNameRange     '0.4.1',
+513 silly addNameRange     '0.5.0',
+513 silly addNameRange     '0.6.0',
+513 silly addNameRange     '0.7.0',
+513 silly addNameRange     '0.8.0',
+513 silly addNameRange     '1.0.0',
+513 silly addNameRange     '1.0.1',
+513 silly addNameRange     '2.0.0',
+513 silly addNameRange     '2.1.0',
+513 silly addNameRange     '2.1.1',
+513 silly addNameRange     '2.1.2',
+513 silly addNameRange     '2.2.0',
+513 silly addNameRange     '2.3.0',
+513 silly addNameRange     '2.4.0',
+513 silly addNameRange     '2.5.0',
+513 silly addNameRange     '2.6.0',
+513 silly addNameRange     '2.7.0',
+513 silly addNameRange     '2.8.0',
+513 silly addNameRange     '2.9.0',
+513 silly addNameRange     '2.9.1',
+513 silly addNameRange     '2.10.0',
+513 silly addNameRange     '2.11.0',
+513 silly addNameRange     '2.12.0',
+513 silly addNameRange     '2.12.1',
+513 silly addNameRange     '2.12.2',
+513 silly addNameRange     '2.13.0',
+513 silly addNameRange     '2.14.0',
+513 silly addNameRange     '2.14.1',
+513 silly addNameRange     '2.14.2',
+513 silly addNameRange     '2.15.0',
+513 silly addNameRange     '2.15.1',
+513 silly addNameRange     '2.16.0',
+513 silly addNameRange     '2.17.0',
+513 silly addNameRange     '2.17.1',
+513 silly addNameRange     '2.18.0',
+513 silly addNameRange     '2.19.0',
+513 silly addNameRange     '2.19.1',
+513 silly addNameRange     '2.19.2',
+513 silly addNameRange     '2.20.1',
+513 silly addNameRange     '2.20.2',
+513 silly addNameRange     '2.20.3',
+513 silly addNameRange     '2.20.4',
+513 silly addNameRange     '2.20.5',
+513 silly addNameRange     '2.20.6',
+513 silly addNameRange     '2.20.7',
+513 silly addNameRange     '2.20.8',
+513 silly addNameRange     '2.20.9',
+513 silly addNameRange     '2.20.10',
+513 silly addNameRange     '2.21.0',
+513 silly addNameRange     '3.0.0',
+513 silly addNameRange     '3.1.0',
+513 silly addNameRange     '3.1.1',
+513 silly addNameRange     '3.1.2',
+513 silly addNameRange     '3.1.3',
+513 silly addNameRange     '3.2.0',
+513 silly addNameRange     '3.2.1' ] ]
+514 silly addNamed express-validator@3.2.1
+515 verbose addNamed "3.2.1" is a plain semver version for express-validator
+516 verbose get https://registry.npmjs.org/mongoose not expired, no request
+517 silly addNameRange number 2 { name: 'mongoose', range: '*', hasData: true }
+518 silly addNameRange versions [ 'mongoose',
+518 silly addNameRange   [ '0.0.1',
+518 silly addNameRange     '0.0.2',
+518 silly addNameRange     '0.0.3',
+518 silly addNameRange     '0.0.4',
+518 silly addNameRange     '0.0.5',
+518 silly addNameRange     '1.0.0',
+518 silly addNameRange     '1.0.1',
+518 silly addNameRange     '1.0.2',
+518 silly addNameRange     '0.0.6',
+518 silly addNameRange     '1.0.3',
+518 silly addNameRange     '1.0.4',
+518 silly addNameRange     '1.0.5',
+518 silly addNameRange     '1.0.6',
+518 silly addNameRange     '1.0.7',
+518 silly addNameRange     '1.0.8',
+518 silly addNameRange     '1.0.10',
+518 silly addNameRange     '1.0.11',
+518 silly addNameRange     '1.0.12',
+518 silly addNameRange     '1.0.13',
+518 silly addNameRange     '1.0.14',
+518 silly addNameRange     '1.0.15',
+518 silly addNameRange     '1.0.16',
+518 silly addNameRange     '1.1.0',
+518 silly addNameRange     '1.1.1',
+518 silly addNameRange     '1.1.2',
+518 silly addNameRange     '1.1.3',
+518 silly addNameRange     '1.1.4',
+518 silly addNameRange     '1.1.5',
+518 silly addNameRange     '1.1.6',
+518 silly addNameRange     '1.1.7',
+518 silly addNameRange     '1.1.8',
+518 silly addNameRange     '1.1.9',
+518 silly addNameRange     '1.1.10',
+518 silly addNameRange     '1.1.11',
+518 silly addNameRange     '1.1.12',
+518 silly addNameRange     '1.1.13',
+518 silly addNameRange     '1.1.14',
+518 silly addNameRange     '1.1.15',
+518 silly addNameRange     '1.1.16',
+518 silly addNameRange     '1.1.17',
+518 silly addNameRange     '1.1.18',
+518 silly addNameRange     '1.1.19',
+518 silly addNameRange     '1.1.20',
+518 silly addNameRange     '1.1.21',
+518 silly addNameRange     '1.1.22',
+518 silly addNameRange     '1.1.23',
+518 silly addNameRange     '1.1.24',
+518 silly addNameRange     '1.1.25',
+518 silly addNameRange     '1.2.0',
+518 silly addNameRange     '1.3.0',
+518 silly addNameRange     '1.3.1',
+518 silly addNameRange     '1.3.2',
+518 silly addNameRange     '1.3.3',
+518 silly addNameRange     '1.3.4',
+518 silly addNameRange     '1.3.5',
+518 silly addNameRange     '1.3.6',
+518 silly addNameRange     '1.3.7',
+518 silly addNameRange     '1.4.0',
+518 silly addNameRange     '1.5.0',
+518 silly addNameRange     '1.6.0',
+518 silly addNameRange     '1.7.2',
+518 silly addNameRange     '1.7.3',
+518 silly addNameRange     '1.7.4',
+518 silly addNameRange     '1.8.0',
+518 silly addNameRange     '1.8.1',
+518 silly addNameRange     '1.8.2',
+518 silly addNameRange     '1.8.3',
+518 silly addNameRange     '1.8.4',
+518 silly addNameRange     '2.0.0',
+518 silly addNameRange     '2.0.1',
+518 silly addNameRange     '2.0.2',
+518 silly addNameRange     '2.0.3',
+518 silly addNameRange     '2.0.4',
+518 silly addNameRange     '2.1.0',
+518 silly addNameRange     '2.1.1',
+518 silly addNameRange     '2.1.2',
+518 silly addNameRange     '2.1.3',
+518 silly addNameRange     '2.1.4',
+518 silly addNameRange     '2.2.0',
+518 silly addNameRange     '2.2.1',
+518 silly addNameRange     '2.2.2',
+518 silly addNameRange     '2.2.3',
+518 silly addNameRange     '2.2.4',
+518 silly addNameRange     '2.3.0',
+518 silly addNameRange     '2.3.1',
+518 silly addNameRange     '2.3.2',
+518 silly addNameRange     '2.3.3',
+518 silly addNameRange     '2.3.4',
+518 silly addNameRange     '2.3.5',
+518 silly addNameRange     '2.3.6',
+518 silly addNameRange     '2.3.7',
+518 silly addNameRange     '2.3.8',
+518 silly addNameRange     '2.3.9',
+518 silly addNameRange     '2.3.10',
+518 silly addNameRange     '2.3.11',
+518 silly addNameRange     '2.3.12',
+518 silly addNameRange     '2.3.13',
+518 silly addNameRange     '2.4.0',
+518 silly addNameRange     '2.4.1',
+518 silly addNameRange     '2.4.2',
+518 silly addNameRange     ... 286 more items ] ]
+519 silly addNamed mongoose@4.11.3
+520 verbose addNamed "4.11.3" is a plain semver version for mongoose
+521 http 200 https://registry.npmjs.org/passport-facebook
+522 verbose headers { server: 'nginx/1.10.3',
+522 verbose headers   'content-type': 'application/json',
+522 verbose headers   'last-modified': 'Mon, 03 Jul 2017 10:49:40 GMT',
+522 verbose headers   etag: 'W/"595a2144-6679"',
+522 verbose headers   'content-encoding': 'gzip',
+522 verbose headers   'cache-control': 'max-age=300',
+522 verbose headers   'content-length': '5133',
+522 verbose headers   'accept-ranges': 'bytes',
+522 verbose headers   date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+522 verbose headers   via: '1.1 varnish',
+522 verbose headers   age: '0',
+522 verbose headers   connection: 'keep-alive',
+522 verbose headers   'x-served-by': 'cache-sin18029-SIN',
+522 verbose headers   'x-cache': 'HIT',
+522 verbose headers   'x-cache-hits': '1',
+522 verbose headers   'x-timer': 'S1500107272.585961,VS0,VE142',
+522 verbose headers   vary: 'Accept-Encoding, Accept' }
+523 silly get cb [ 200,
+523 silly get   { server: 'nginx/1.10.3',
+523 silly get     'content-type': 'application/json',
+523 silly get     'last-modified': 'Mon, 03 Jul 2017 10:49:40 GMT',
+523 silly get     etag: 'W/"595a2144-6679"',
+523 silly get     'content-encoding': 'gzip',
+523 silly get     'cache-control': 'max-age=300',
+523 silly get     'content-length': '5133',
+523 silly get     'accept-ranges': 'bytes',
+523 silly get     date: 'Sat, 15 Jul 2017 08:27:51 GMT',
+523 silly get     via: '1.1 varnish',
+523 silly get     age: '0',
+523 silly get     connection: 'keep-alive',
+523 silly get     'x-served-by': 'cache-sin18029-SIN',
+523 silly get     'x-cache': 'HIT',
+523 silly get     'x-cache-hits': '1',
+523 silly get     'x-timer': 'S1500107272.585961,VS0,VE142',
+523 silly get     vary: 'Accept-Encoding, Accept' } ]
+524 verbose get saving passport-facebook to C:\Users\Wei Ping\AppData\Roaming\npm-cache\registry.npmjs.org\passport-facebook\.cache.json
+525 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+526 verbose get https://registry.npmjs.org/express-handlebars not expired, no request
+527 silly addNameRange number 2 { name: 'express-handlebars', range: '*', hasData: true }
+528 silly addNameRange versions [ 'express-handlebars',
+528 silly addNameRange   [ '0.0.1',
+528 silly addNameRange     '0.0.2',
+528 silly addNameRange     '1.0.0-rc-1',
+528 silly addNameRange     '1.0.0-rc-2',
+528 silly addNameRange     '1.0.0',
+528 silly addNameRange     '1.0.1',
+528 silly addNameRange     '1.0.2',
+528 silly addNameRange     '1.0.3',
+528 silly addNameRange     '1.1.0',
+528 silly addNameRange     '1.2.0',
+528 silly addNameRange     '1.2.1',
+528 silly addNameRange     '1.2.2',
+528 silly addNameRange     '2.0.0',
+528 silly addNameRange     '2.0.1',
+528 silly addNameRange     '3.0.0' ] ]
+529 silly addNamed express-handlebars@3.0.0
+530 verbose addNamed "3.0.0" is a plain semver version for express-handlebars
+531 silly cache afterAdd body-parser@1.17.2
+532 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\body-parser\1.17.2\package\package.json not in flight; writing
+533 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+534 silly cache afterAdd express-messages@1.0.1
+535 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\express-messages\1.0.1\package\package.json not in flight; writing
+536 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+537 silly cache afterAdd cookie-parser@1.4.3
+538 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\cookie-parser\1.4.3\package\package.json not in flight; writing
+539 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+540 silly cache afterAdd express-session@1.15.3
+541 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\express-session\1.15.3\package\package.json not in flight; writing
+542 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+543 silly cache afterAdd connect-flash@0.1.1
+544 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\connect-flash\0.1.1\package\package.json not in flight; writing
+545 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+546 silly cache afterAdd express@4.15.3
+547 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\express\4.15.3\package\package.json not in flight; writing
+548 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+549 silly cache afterAdd passport@0.3.2
+550 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\passport\0.3.2\package\package.json not in flight; writing
+551 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+552 silly cache afterAdd passport-http@0.3.0
+553 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\passport-http\0.3.0\package\package.json not in flight; writing
+554 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+555 silly cache afterAdd mongodb@2.2.30
+556 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\mongodb\2.2.30\package\package.json not in flight; writing
+557 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+558 silly cache afterAdd passport-local@1.0.0
+559 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\passport-local\1.0.0\package\package.json not in flight; writing
+560 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+561 silly cache afterAdd express-validator@3.2.1
+562 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\express-validator\3.2.1\package\package.json not in flight; writing
+563 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+564 silly cache afterAdd mongoose@4.11.3
+565 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\mongoose\4.11.3\package\package.json not in flight; writing
+566 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+567 silly cache afterAdd express-handlebars@3.0.0
+568 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\express-handlebars\3.0.0\package\package.json not in flight; writing
+569 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+570 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\body-parser\1.17.2\package\package.json written
+571 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\express-messages\1.0.1\package\package.json written
+572 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\connect-flash\0.1.1\package\package.json written
+573 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\express-session\1.15.3\package\package.json written
+574 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\express\4.15.3\package\package.json written
+575 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\passport-http\0.3.0\package\package.json written
+576 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\passport\0.3.2\package\package.json written
+577 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\cookie-parser\1.4.3\package\package.json written
+578 silly resolveWithNewModule bcryptjs@2.4.3 checking installable status
+579 silly cache add args [ 'bcryptjs@*', null ]
+580 verbose cache add spec bcryptjs@*
+581 silly cache add parsed spec Result {
+581 silly cache add   raw: 'bcryptjs@*',
+581 silly cache add   scope: null,
+581 silly cache add   escapedName: 'bcryptjs',
+581 silly cache add   name: 'bcryptjs',
+581 silly cache add   rawSpec: '*',
+581 silly cache add   spec: '*',
+581 silly cache add   type: 'range' }
+582 silly addNamed bcryptjs@*
+583 verbose addNamed "*" is a valid semver range for bcryptjs
+584 silly addNameRange { name: 'bcryptjs', range: '*', hasData: false }
+585 silly mapToRegistry name bcryptjs
+586 silly mapToRegistry using default registry
+587 silly mapToRegistry registry https://registry.npmjs.org/
+588 silly mapToRegistry data Result {
+588 silly mapToRegistry   raw: 'bcryptjs',
+588 silly mapToRegistry   scope: null,
+588 silly mapToRegistry   escapedName: 'bcryptjs',
+588 silly mapToRegistry   name: 'bcryptjs',
+588 silly mapToRegistry   rawSpec: '',
+588 silly mapToRegistry   spec: 'latest',
+588 silly mapToRegistry   type: 'tag' }
+589 silly mapToRegistry uri https://registry.npmjs.org/bcryptjs
+590 verbose addNameRange registry:https://registry.npmjs.org/bcryptjs not in flight; fetching
+591 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\mongodb\2.2.30\package\package.json written
+592 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\passport-local\1.0.0\package\package.json written
+593 silly resolveWithNewModule passport-facebook@1.0.3 checking installable status
+594 silly cache add args [ 'passport-facebook@~1.0.2', null ]
+595 verbose cache add spec passport-facebook@~1.0.2
+596 silly cache add parsed spec Result {
+596 silly cache add   raw: 'passport-facebook@~1.0.2',
+596 silly cache add   scope: null,
+596 silly cache add   escapedName: 'passport-facebook',
+596 silly cache add   name: 'passport-facebook',
+596 silly cache add   rawSpec: '~1.0.2',
+596 silly cache add   spec: '>=1.0.2 <1.1.0',
+596 silly cache add   type: 'range' }
+597 silly addNamed passport-facebook@>=1.0.2 <1.1.0
+598 verbose addNamed ">=1.0.2 <1.1.0" is a valid semver range for passport-facebook
+599 silly addNameRange { name: 'passport-facebook',
+599 silly addNameRange   range: '>=1.0.2 <1.1.0',
+599 silly addNameRange   hasData: false }
+600 silly mapToRegistry name passport-facebook
+601 silly mapToRegistry using default registry
+602 silly mapToRegistry registry https://registry.npmjs.org/
+603 silly mapToRegistry data Result {
+603 silly mapToRegistry   raw: 'passport-facebook',
+603 silly mapToRegistry   scope: null,
+603 silly mapToRegistry   escapedName: 'passport-facebook',
+603 silly mapToRegistry   name: 'passport-facebook',
+603 silly mapToRegistry   rawSpec: '',
+603 silly mapToRegistry   spec: 'latest',
+603 silly mapToRegistry   type: 'tag' }
+604 silly mapToRegistry uri https://registry.npmjs.org/passport-facebook
+605 verbose addNameRange registry:https://registry.npmjs.org/passport-facebook not in flight; fetching
+606 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\mongoose\4.11.3\package\package.json written
+607 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\express-validator\3.2.1\package\package.json written
+608 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\express-handlebars\3.0.0\package\package.json written
+609 verbose get https://registry.npmjs.org/bcryptjs not expired, no request
+610 silly addNameRange number 2 { name: 'bcryptjs', range: '*', hasData: true }
+611 silly addNameRange versions [ 'bcryptjs',
+611 silly addNameRange   [ '0.7.5',
+611 silly addNameRange     '0.7.6',
+611 silly addNameRange     '0.7.7',
+611 silly addNameRange     '0.7.8',
+611 silly addNameRange     '0.7.10',
+611 silly addNameRange     '0.7.12',
+611 silly addNameRange     '1.0.0',
+611 silly addNameRange     '1.0.1',
+611 silly addNameRange     '1.0.2',
+611 silly addNameRange     '1.0.3',
+611 silly addNameRange     '1.0.4',
+611 silly addNameRange     '1.0.5',
+611 silly addNameRange     '1.1.0',
+611 silly addNameRange     '2.0.0',
+611 silly addNameRange     '2.0.1',
+611 silly addNameRange     '2.0.2',
+611 silly addNameRange     '2.1.0',
+611 silly addNameRange     '2.2.0',
+611 silly addNameRange     '2.2.1',
+611 silly addNameRange     '2.2.2',
+611 silly addNameRange     '2.3.0',
+611 silly addNameRange     '2.4.0',
+611 silly addNameRange     '2.4.1',
+611 silly addNameRange     '2.4.2',
+611 silly addNameRange     '2.4.3' ] ]
+612 silly addNamed bcryptjs@2.4.3
+613 verbose addNamed "2.4.3" is a plain semver version for bcryptjs
+614 verbose get https://registry.npmjs.org/passport-facebook not expired, no request
+615 silly addNameRange number 2 { name: 'passport-facebook',
+615 silly addNameRange   range: '>=1.0.2 <1.1.0',
+615 silly addNameRange   hasData: true }
+616 silly addNameRange versions [ 'passport-facebook',
+616 silly addNameRange   [ '0.1.0',
+616 silly addNameRange     '0.1.1',
+616 silly addNameRange     '0.1.2',
+616 silly addNameRange     '0.1.3',
+616 silly addNameRange     '0.1.4',
+616 silly addNameRange     '0.1.5',
+616 silly addNameRange     '0.1.6',
+616 silly addNameRange     '1.0.0',
+616 silly addNameRange     '1.0.1',
+616 silly addNameRange     '1.0.2',
+616 silly addNameRange     '1.0.3',
+616 silly addNameRange     '2.0.0',
+616 silly addNameRange     '2.1.0',
+616 silly addNameRange     '2.1.1' ] ]
+617 silly addNamed passport-facebook@1.0.3
+618 verbose addNamed "1.0.3" is a plain semver version for passport-facebook
+619 silly mapToRegistry name passport-facebook
+620 silly mapToRegistry using default registry
+621 silly mapToRegistry registry https://registry.npmjs.org/
+622 silly mapToRegistry data Result {
+622 silly mapToRegistry   raw: 'passport-facebook',
+622 silly mapToRegistry   scope: null,
+622 silly mapToRegistry   escapedName: 'passport-facebook',
+622 silly mapToRegistry   name: 'passport-facebook',
+622 silly mapToRegistry   rawSpec: '',
+622 silly mapToRegistry   spec: 'latest',
+622 silly mapToRegistry   type: 'tag' }
+623 silly mapToRegistry uri https://registry.npmjs.org/passport-facebook
+624 verbose addRemoteTarball https://registry.npmjs.org/passport-facebook/-/passport-facebook-1.0.3.tgz not in flight; adding
+625 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport-facebook/-/passport-facebook-1.0.3.tgz',
+625 verbose addRemoteTarball   '82a95aab0017ab190b815ab1e64ab75482eacdc7' ]
+626 silly cache afterAdd bcryptjs@2.4.3
+627 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\bcryptjs\2.4.3\package\package.json not in flight; writing
+628 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+629 info retry fetch attempt 1 at 4:28:03 PM
+630 info attempt registry request try #1 at 4:28:03 PM
+631 http fetch GET https://registry.npmjs.org/passport-facebook/-/passport-facebook-1.0.3.tgz
+632 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\bcryptjs\2.4.3\package\package.json written
+633 http fetch 200 https://registry.npmjs.org/passport-facebook/-/passport-facebook-1.0.3.tgz
+634 silly fetchAndShaCheck shasum 82a95aab0017ab190b815ab1e64ab75482eacdc7
+635 verbose addTmpTarball C:\Users\WEIPIN~1\AppData\Local\Temp\npm-19716-0464fb68\registry.npmjs.org\passport-facebook\-\passport-facebook-1.0.3.tgz not in flight; adding
+636 verbose addTmpTarball already have metadata; skipping unpack for passport-facebook@1.0.3
+637 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+638 silly cache afterAdd passport-facebook@1.0.3
+639 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\passport-facebook\1.0.3\package\package.json not in flight; writing
+640 verbose correctMkdir C:\Users\Wei Ping\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+641 verbose afterAdd C:\Users\Wei Ping\AppData\Roaming\npm-cache\passport-facebook\1.0.3\package\package.json written
+642 http 404 https://registry.npmjs.org/passport-gooogle-oath
+643 verbose headers { 'content-type': 'application/json',
+643 verbose headers   'cache-control': 'max-age=0',
+643 verbose headers   'content-length': '2',
+643 verbose headers   'accept-ranges': 'bytes',
+643 verbose headers   date: 'Sat, 15 Jul 2017 08:27:52 GMT',
+643 verbose headers   via: '1.1 varnish',
+643 verbose headers   age: '0',
+643 verbose headers   connection: 'keep-alive',
+643 verbose headers   'x-served-by': 'cache-sin18020-SIN',
+643 verbose headers   'x-cache': 'MISS',
+643 verbose headers   'x-cache-hits': '0',
+643 verbose headers   'x-timer': 'S1500107272.592258,VS0,VE1153',
+643 verbose headers   vary: 'Accept-Encoding' }
+644 silly get cb [ 404,
+644 silly get   { 'content-type': 'application/json',
+644 silly get     'cache-control': 'max-age=0',
+644 silly get     'content-length': '2',
+644 silly get     'accept-ranges': 'bytes',
+644 silly get     date: 'Sat, 15 Jul 2017 08:27:52 GMT',
+644 silly get     via: '1.1 varnish',
+644 silly get     age: '0',
+644 silly get     connection: 'keep-alive',
+644 silly get     'x-served-by': 'cache-sin18020-SIN',
+644 silly get     'x-cache': 'MISS',
+644 silly get     'x-cache-hits': '0',
+644 silly get     'x-timer': 'S1500107272.592258,VS0,VE1153',
+644 silly get     vary: 'Accept-Encoding' } ]
+645 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/passport-gooogle-oath
+645 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+645 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:280:14)
+645 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+645 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+645 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+645 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+645 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+645 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+645 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+645 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+645 silly fetchPackageMetaData  error for passport-gooogle-oath@~0.1.5 { Error: Registry returned 404 for GET on https://registry.npmjs.org/passport-gooogle-oath
+645 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+645 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:280:14)
+645 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+645 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+645 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+645 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+645 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+645 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+645 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+645 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12) pkgid: 'passport-gooogle-oath', statusCode: 404, code: 'E404' }
+646 silly rollbackFailedOptional Starting
+647 silly rollbackFailedOptional Finishing
+648 silly runTopLevelLifecycles Finishing
+649 silly install printInstalled
+650 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/passport-gooogle-oath
+650 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+650 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:280:14)
+650 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+650 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+650 verbose stack     at emitTwo (events.js:106:13)
+650 verbose stack     at Request.emit (events.js:191:7)
+650 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+650 verbose stack     at emitOne (events.js:96:13)
+650 verbose stack     at Request.emit (events.js:188:7)
+650 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+651 verbose statusCode 404
+652 verbose pkgid passport-gooogle-oath
+653 verbose cwd C:\Users\Wei Ping\Desktop\Calendar\orbital-update_1.3\orbital-update_1.3\backend\loginapp
+654 error Windows_NT 10.0.15063
+655 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+656 error node v6.11.0
+657 error npm  v3.10.10
+658 error code E404
+659 error 404 Registry returned 404 for GET on https://registry.npmjs.org/passport-gooogle-oath
+660 error 404
+661 error 404 'passport-gooogle-oath' is not in the npm registry.
+662 error 404 You should bug the author to publish it (or use the name yourself!)
+663 error 404 It was specified as a dependency of 'backend'
+664 error 404 Note that you can also install from a
+665 error 404 tarball, folder, http url, or git url.
+666 verbose exit [ 1, true ]
