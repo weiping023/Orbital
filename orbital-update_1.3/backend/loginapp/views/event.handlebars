@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<h2 class="page-header">Event</h2>
+
+<body>
+<table class = "table table-hover">
+  <tr>
+    <th height = "35">Event</th>
+    <th width = "20%" height = "35">Date</th> 
+    <th>Venue</th>
+    <th>Category</th>
+    <th>Remove</th>
+  </tr>
+
+  {{# each events}}
+  <tr>
+  	<td>{{_id}}</td>
+  	<td>{{title}}</td>
+  	<td>{{date}}</td>
+  	<td>{{venue}}</td>
+  	<td>{{category}}</td>
+  	<td>
+      <form action="/deleteEvent" method="post">
+        <input type="hidden" name="event_id" value="{{_id}}"/>
+        <input type="submit" value="Delete" id="submit"/>
+      </form>
+  	</td>
+  </tr>
+  {{/each}}
+</table>
+
+</body>
+
+</html>

@@ -9,10 +9,6 @@
     <th>Mark </th>
   </tr>
 
-  {{!--<script> var events = {{{data}}}; console.log(events);</script>
-  <script src="js/moment.min.js"></script>
-  <script src="js/ulkof.js"></script>--}}
-
   {{#each data}}
   <tr>
     <td>{{Title}}</td>
@@ -21,9 +17,11 @@
     <td>{{Category}}</td>
     <td>
       <form action="/profile/markEvent" method="post">
-        <input type="hidden" name="event_id" value="{{Event_id}}"/>
+        <input type="hidden" name="title" value="{{Title}}"/>
+        <input type="hidden" name="date" value= "{{Date}}"/>
+        <input type="hidden" name="venue" value = "{{Venue}}"/>
+        <input type="hidden" name="category" value="{{Category}}"/>
         <input type="submit" value="Mark" id="submit"/>
-       <a href="/get">read</a> <p></p>
       </form>
     </td>
   </tr>
