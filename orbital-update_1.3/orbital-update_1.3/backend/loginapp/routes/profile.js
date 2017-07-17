@@ -8,7 +8,6 @@ var event_data;
 
 fs.readFile('../loginapp/events_data.out', 'utf8', function(err, data) {
 	if(err) throw err;
-	//event_data = data;
 	event_data = JSON.parse(data);
 })
 

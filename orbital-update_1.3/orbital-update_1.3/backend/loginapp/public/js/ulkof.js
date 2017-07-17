@@ -1,3 +1,4 @@
+
 !function() {
 
   var today = moment();
@@ -314,25 +315,7 @@
   }
 }();
 
-function parseResults()
-{
-  console.log("events:");
-  console.log(events);
-  var data = []
-  events.forEach(function(event) { 
-    a = {eventName: event['Title'], calendar:"Available", color: 'green', date: event['Date']}; 
-    data.push(a);
-  });
-
-  // events
-  return data;
-}
-
 !function() {
-
-  // var data = parseResults();
-  // console.log("data:");
-  // console.log(data);
   
   var data = [    
     { eventName: 'NUS Alumni Orchestra', calendar: 'Available', color: 'green', date: moment("2017-06-25") },
